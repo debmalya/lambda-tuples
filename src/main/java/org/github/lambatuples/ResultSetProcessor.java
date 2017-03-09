@@ -217,6 +217,11 @@ import java.sql.SQLException;
 
 
 @FunctionalInterface
+/**
+ * 
+ * Single Abstract Method (SAM) interface.
+ *
+ */
 public interface ResultSetProcessor {
 
     public void process(ResultSet resultSet, long currentRow) throws SQLException;

@@ -203,12 +203,9 @@ Apache License
 */
 package org.github.lambatuples;
 
-import org.junit.Test;
-
-import java.util.stream.Collectors;
-
-import static org.github.lambatuples.SQL.select;
 import static org.github.lambatuples.SQL.stream;
+
+import org.junit.Test;
 
 /**
  * Created with IntelliJ IDEA.

@@ -216,7 +216,11 @@ import java.sql.SQLException;
  */
 public class DataAccessException extends RuntimeException{
 
-    public int errorCode;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -7364795134820558820L;
+	public int errorCode;
     public String state;
 
     public DataAccessException() {
